@@ -7,7 +7,7 @@ int main() {
 
 	string s;
 	cin >> s;
-	for (auto c: s)
+	for (char c: s)
 		freq[c-'a']++;
 
 	for (int i = 0; i < 26; i++)
