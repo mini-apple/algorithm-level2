@@ -26,7 +26,7 @@ int main() {
 			cout << S.size() << '\n';
 		}
 		else if (op=="empty") {
-			cout << (int)S.empty() << '\n';
+			cout << S.empty() << '\n';
 		}
 		else if (op=="top") {
 			if (!S.empty()) cout << S.top() << '\n';
